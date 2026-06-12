@@ -182,17 +182,15 @@ Independently pursuing applied research in cybersecurity and Linux systems as pa
   <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=7C3AED&text_color=C9D1D9&rank_icon=github" width="49%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=NKKONLINE&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=7C3AED&currStreakLabel=8B5CF6" width="49%" />
 </p>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
 </p>
-
 ---
 
 ## GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NKKONLINE&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews" />
+  <img src="https://github-profile-trophy.vercel.app/?username=NKKONLINE&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" />
 </p>
 
 ---
@@ -208,9 +206,8 @@ Independently pursuing applied research in cybersecurity and Linux systems as pa
 ##  Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NKKONLINE/NKKONLINE/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/NKKONLINE/NKKONLINE/output/github-contribution-grid-snake-dark.svg" alt="contribution snake animation" />
 </p>
-
 ---
 
 ##  Current Focus
