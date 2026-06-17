@@ -66,7 +66,7 @@ life_philosophy: "who cares?"
 
 <img src="divider.svg" width="100%"/>
 
-## Contribution Activity
+<img src="contribution.svg" width="400"/>
 
 
 <p align="center">
