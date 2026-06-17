@@ -7,17 +7,19 @@
   <img src="header-animations.svg" alt="NANDHAN KK" width="100%"/>
   
   <br/>
+  <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- 🖥️ TERMINAL INTRO SECTION                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
+<div align="center">
+  <img src="profile.svg" alt="Terminal Introduction" width="650"/>
+</div>
 
+<br/>
 
+<img src="./assets/divider.svg" width="100%"/>
 
-
-
-
----
-
-##  About Me
-
+<br/>
 
 ---
 
