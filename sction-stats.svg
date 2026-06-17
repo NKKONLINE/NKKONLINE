@@ -9,8 +9,14 @@
 
   <rect width="100%" height="100%" fill="transparent"/>
 
-  <!-- Icon -->
-  <image x="5" y="8" width="24" height="24" href="logo.svg"/>
+  <!-- Icon (inline instead of href, so color works) -->
+  <g transform="translate(4, 8) scale(1)">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <path d="M3 3V21" stroke="url(#sectionGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M21 21H3" stroke="url(#sectionGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M7 16L12.25 10.75L15.75 14.25L21 9" stroke="url(#sectionGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </g>
 
   <!-- Text -->
   <text x="35" y="27" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="url(#sectionGrad)">
