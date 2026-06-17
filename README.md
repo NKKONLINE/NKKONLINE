@@ -104,51 +104,9 @@ life_philosophy: "who cares?"
 ---
 
 
-<div align="center">
-  <table style="border: 2px solid #00c1ff; border-radius: 12px; background-color: #0d1117; padding: 20px; border-collapse: separate;">
-    <thead>
-      <tr>
-        <th colspan="6" style="border: none; font-family: 'JetBrains Mono', monospace; font-size: 1.4em; font-weight: bold; color: #ffffff; text-align: center; padding-bottom: 15px;">
-          Connect With Me
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border: none; padding: 0 10px;">
-          <a href="https://linkedin.com/in/NKKONLINE" target="_blank">
-            <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" height="35" />
-          </a>
-        </td>
-        <td style="border: none; padding: 0 10px;">
-          <a href="mailto:nandhankkkonline@gmail.com">
-            <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail" height="35" />
-          </a>
-        </td>
-        <td style="border: none; padding: 0 10px;">
-          <a href="https://github.com/NKKONLINE" target="_blank">
-            <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" height="35" />
-          </a>
-        </td>
-        <td style="border: none; padding: 0 10px;">
-          <a href="https://instagram.com/_nandhankk_" target="_blank">
-            <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" height="35" />
-          </a>
-        </td>
-        <td style="border: none; padding: 0 10px;">
-          <a href="https://t.me/KKN5574" target="_blank">
-            <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Telegram" height="35" />
-          </a>
-        </td>
-        <td style="border: none; padding: 0 10px;">
-          <a href="https://snapchat.com/add/nandhankk25" target="_blank">
-            <img src="https://img.shields.io/badge/-Snapchat-FFFC00?style=for-the-badge&amp;logo=snapchat&amp;logoColor=black" alt="Snapchat" height="35" />
-          </a>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<p align="center">
+  <img src="connect.svg" />
+</p>
 ---
 
 <p align="center">
