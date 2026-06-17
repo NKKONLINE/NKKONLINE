@@ -54,7 +54,7 @@ life_philosophy: "who cares?"
   <img src="./coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
 </p>
 <img src="divider.svg" width="100%"/>
-##  GitHub Analytics
+<img src="sction-stats.svg" width="400"/>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=7C3AED&text_color=C9D1D9&rank_icon=github" width="49%" />
