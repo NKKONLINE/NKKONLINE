@@ -4,7 +4,7 @@
   <!--  ANIMATED HEADER                                                          -->
   <!-- ═══════════════════════════════════════════════════════════════════════════ -->
   
-  <img src="header-animations.svg" alt="NANDHAN KK" width="100%"/>
+  <img src="header-animation.svg" alt="NANDHAN KK" width="100%"/>
   
   <br/>
   <!-- ═══════════════════════════════════════════════════════════════════════════ -->
