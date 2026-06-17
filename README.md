@@ -48,10 +48,10 @@ life_philosophy: "who cares?"
 
 <br/>
 <img src="divider.svg" width="100%"/>
-## Coding Profiles
+
 
 <p align="center">
-  <img src="./coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
+  <img src="coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
 </p>
 <img src="divider.svg" width="100%"/>
 <img src="sction-stats.svg" width="400"/>
