@@ -1,52 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
   <defs>
-    <!-- Premium Animated Gradient -->
-<linearGradient id="premiumGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%" style="stop-color:#c31432">
-    <animate attributeName="stop-color" values="#c31432;#240b36;#c31432" dur="6s" repeatCount="indefinite"/>
-  </stop>
-  <stop offset="50%" style="stop-color:#740f34">
-    <animate attributeName="stop-color" values="#740f34;#c31432;#240b36;#740f34" dur="6s" repeatCount="indefinite"/>
-  </stop>
-  <stop offset="100%" style="stop-color:#240b36">
-    <animate attributeName="stop-color" values="#240b36;#c31432;#240b36" dur="6s" repeatCount="indefinite"/>
-  </stop>
-</linearGradient>
-    
-    <!-- Text Shadow -->
+    <linearGradient id="premiumGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c31432">
+        <animate attributeName="stop-color" values="#c31432;#240b36;#c31432" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#740f34">
+        <animate attributeName="stop-color" values="#740f34;#c31432;#240b36;#740f34" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#240b36">
+        <animate attributeName="stop-color" values="#240b36;#c31432;#240b36" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
     <filter id="textShadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#667eea" flood-opacity="0.5"/>
     </filter>
-  </defs>
-  
-  <!-- Clean Background -->
-  <rect width="100%" height="100%" fill="#0d1117"/>
-  
-  <!-- Subtle Grid Pattern -->
-  <defs>
+
+    <filter id="glitch" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" result="noise">
+        <animate attributeName="baseFrequency" values="0.65;0.68;0.65" dur="0.3s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" xChannelSelector="R" yChannelSelector="G" result="displaced">
+        <animate attributeName="scale" values="0;0;0;8;0;6;0;0;0;0;0;0;0;0;0;4;0;0;0" dur="4s" repeatCount="indefinite"/>
+      </feDisplacementMap>
+      <feBlend in="SourceGraphic" in2="displaced" mode="normal">
+        <animate attributeName="mode" values="normal;normal;normal;screen;normal;multiply;normal;normal;normal;normal;normal;normal;normal;normal;normal;screen;normal;normal;normal" dur="4s" repeatCount="indefinite"/>
+      </feBlend>
+    </filter>
+
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1f2937" stroke-width="0.5" opacity="0.3"/>
     </pattern>
+
+    <!-- Clip for reveal wipe effect -->
+    <clipPath id="revealClip">
+      <rect x="0" y="0" width="900" height="180">
+        <animate attributeName="width" values="0;900" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+      </rect>
+    </clipPath>
   </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117"/>
   <rect width="100%" height="100%" fill="url(#grid)"/>
-  
+
   <!-- Accent Line Top -->
   <rect x="0" y="0" width="900" height="3" fill="url(#premiumGradient)"/>
-  
-  <!-- Main Name Text -->
-  <g filter="url(#textShadow)">
-    <text x="450" y="75" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="48" font-weight="700" fill="url(#premiumGradient)" letter-spacing="3">
-      NANDHAN KK
+
+  <!-- Decode scramble layer — random chars that fade out -->
+  <g opacity="1" filter="url(#textShadow)">
+    <!-- Scramble char 1 -->
+    <text x="450" y="75" text-anchor="middle"
+          font-family="'Courier New', monospace" font-size="48" font-weight="700"
+          fill="url(#premiumGradient)" letter-spacing="3" opacity="1">
+      X4#@9K%2&amp;1Z!Q8W
+      <animate attributeName="opacity" values="1;1;1;0" dur="1.4s" fill="freeze"/>
+    </text>
+    <!-- Scramble char 2 — offset timing -->
+    <text x="450" y="75" text-anchor="middle"
+          font-family="'Courier New', monospace" font-size="48" font-weight="700"
+          fill="url(#premiumGradient)" letter-spacing="3" opacity="0">
+      N$#DH%^N*K&amp;@!
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.4s" begin="0.2s" fill="freeze"/>
+    </text>
+    <!-- Scramble char 3 -->
+    <text x="450" y="75" text-anchor="middle"
+          font-family="'Courier New', monospace" font-size="48" font-weight="700"
+          fill="url(#premiumGradient)" letter-spacing="3" opacity="0">
+      N@NDHA#*KK
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.4s" begin="0.5s" fill="freeze"/>
+    </text>
+    <!-- Scramble char 4 -->
+    <text x="450" y="75" text-anchor="middle"
+          font-family="'Courier New', monospace" font-size="48" font-weight="700"
+          fill="url(#premiumGradient)" letter-spacing="3" opacity="0">
+      NANDH@N*KK
+      <animate attributeName="opacity" values="0;1;1;0" dur="1.0s" begin="0.8s" fill="freeze"/>
     </text>
   </g>
-  
-  <!-- Subtitle -->
-  <text x="450" y="115" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="16" fill="#9ca3af" letter-spacing="4">
+
+  <!-- Final real name — revealed after decode -->
+  <g filter="url(#glitch)">
+    <g filter="url(#textShadow)" clip-path="url(#revealClip)">
+      <text x="450" y="75" text-anchor="middle"
+            font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif"
+            font-size="48" font-weight="700"
+            fill="url(#premiumGradient)" letter-spacing="3" opacity="0">
+        NANDHAN KK
+        <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;1" dur="1.5s" fill="freeze"/>
+      </text>
+    </g>
+  </g>
+
+  <!-- Subtitle fade in -->
+  <text x="450" y="115" text-anchor="middle"
+        font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif"
+        font-size="16" fill="#9ca3af" letter-spacing="4" opacity="0">
     CYBER SECURITY  •  OFFENSIVE SECURITY  •  ENGINEER
+    <animate attributeName="opacity" values="0;0;0;1" dur="2s" fill="freeze"/>
   </text>
-  
-  <!-- Decorative Elements -->
+
+  <!-- Decorative Lines -->
   <g opacity="0.6">
     <line x1="120" y1="140" x2="380" y2="140" stroke="url(#premiumGradient)" stroke-width="1">
       <animate attributeName="x2" values="120;380" dur="1s" fill="freeze"/>
@@ -55,8 +110,7 @@
       <animate attributeName="x1" values="780;520" dur="1s" fill="freeze"/>
     </line>
   </g>
-  
-  
+
   <!-- Accent Line Bottom -->
   <rect x="0" y="177" width="900" height="3" fill="url(#premiumGradient)"/>
 </svg>
