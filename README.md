@@ -31,9 +31,7 @@
 
 <table>
 <tr>
-<td width="55%" valign="top">
-
-###  What I Do
+<td width="100%" valign="top">
 
 ```yaml
 name: Nandhan KK 
@@ -41,18 +39,6 @@ located_in: India
 current_status: Student & Self-Taught Developer
 life_philosophy: "who cares?"
 ```
-
-</td>
-<td width="45%" valign="top">
-
-<br/>
-
-### Facts
-
-- always learning
-- Fueled by coffee
-
-</td>
 </tr>
 </table>
 
@@ -61,20 +47,13 @@ life_philosophy: "who cares?"
 <img src="divider.svg" width="100%"/>
 
 <br/>
-
-
-
-
-
----
-
-
+<img src="divider.svg" width="100%"/>
 ## Coding Profiles
 
 <p align="center">
   <img src="./coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
 </p>
-
+<img src="divider.svg" width="100%"/>
 ##  GitHub Analytics
 
 <p align="center">
@@ -85,29 +64,29 @@ life_philosophy: "who cares?"
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
 </p>
 
-
----
+<img src="divider.svg" width="100%"/>
 
 ## Contribution Activity
+
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=NKKONLINE&theme=tokyo-night&bg_color=0D1117&color=8B5CF6&line=7C3AED&point=C4B5FD&area=true&hide_border=true" />
 </p>
 
----
+<img src="divider.svg" width="100%"/>
 
 ##  Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/NKKONLINE/NKKONLINE/output/github-contribution-grid-snake-dark.svg" alt="contribution snake animation" />
 </p>
----
+<img src="divider.svg" width="100%"/>
 
 
 <p align="center">
   <img src="connect.svg" />
 </p>
----
+<img src="divider.svg" width="100%"/>
 
 <p align="center">
   <em>"I think you can improve on everything; you're never perfect."</em>
