@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
+  <style>
+    .terminal { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 15px; fill: #a6accd; }
+    .title-bar { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #758575; text-anchor: middle; }
+    .prompt { fill: #c3e88d; font-weight: bold; }
+    .command { fill: #ffffff; }
+    .json-key { fill: #ff5370; }
+    .json-string { fill: #c3e88d; }
+    .json-bracket { fill: #f78c6c; }
+    
+    /* Typing Animation Logic */
+    .type-line {
+      visibility: hidden;
+      animation: revealStep 0.1s forwards;
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+      fill: #82aaff;
+    }
+
+    @keyframes revealStep { to { visibility: visible; } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#00c1ff" flood-opacity="0.15"/>
+  </filter>
+
+  <rect x="15" y="15" width="770" height="390" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" filter="url(#glow)"/>
+
+  <circle cx="40" cy="40" r="6" fill="#ff5f56" />
+  <circle cx="60" cy="40" r="6" fill="#ffbd2e" />
+  <circle cx="80" cy="40" r="6" fill="#27c93f" />
+  <text x="400" y="44" class="title-bar">nandhan@kali: ~</text>
+
+  <g class="terminal" transform="translate(40, 95)">
+    <g class="type-line" style="animation-delay: 0.2s;">
+      <text x="0" y="0"><tspan class="prompt">❯ </tspan><tspan class="command">cat nandhankk.json</tspan></text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 1.2s;">
+      <text x="0" y="30" class="json-bracket">{</text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 1.6s;">
+      <text x="25" y="60"><tspan class="json-key">"name"</tspan>: <tspan class="json-string">"Nandhan KK"</tspan>,</text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 2.4s;">
+      <text x="25" y="90"><tspan class="json-key">"role"</tspan>: <tspan class="json-string">"Offensive Security Student"</tspan>,</text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 3.5s;">
+      <text x="25" y="120"><tspan class="json-key">"focus"</tspan>: <tspan class="json-string">"Penetration Testing &amp; Breach Simulation"</tspan>,</text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 4.8s;">
+      <text x="25" y="150"><tspan class="json-key">"goal"</tspan>: <tspan class="json-string">"Delivering Hacking as a Service (HaaS)"</tspan></text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 5.8s;">
+      <text x="0" y="180" class="json-bracket">}</text>
+    </g>
+
+    <g class="type-line" style="animation-delay: 6.2s;">
+      <text x="0" y="220" class="prompt">❯ <tspan class="cursor">█</tspan></text>
+    </g>
+  </g>
+</svg>
