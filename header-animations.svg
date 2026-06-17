@@ -109,21 +109,8 @@
     </g>
   </g>
 
-  <text x="450" y="115" text-anchor="middle"
-        font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif"
-        font-size="16" fill="#9ca3af" letter-spacing="4" opacity="0">
-    CYBER SECURITY  •  OFFENSIVE SECURITY  •  ENGINEER
-    <animate attributeName="opacity" values="0;0;0;1" dur="1.5s" fill="freeze"/>
-  </text>
 
-  <g opacity="0.6">
-    <line x1="120" y1="140" x2="380" y2="140" stroke="url(#premiumGradient)" stroke-width="1">
-      <animate attributeName="x2" values="120;380" dur="1s" fill="freeze"/>
-    </line>
-    <line x1="520" y1="140" x2="780" y2="140" stroke="url(#premiumGradient)" stroke-width="1">
-      <animate attributeName="x1" values="780;520" dur="1s" fill="freeze"/>
-    </line>
-  </g>
+
 
   <rect x="0" y="177" width="900" height="3" fill="url(#premiumGradient)"/>
 </svg>
