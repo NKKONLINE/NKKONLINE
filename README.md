@@ -48,7 +48,7 @@ life_philosophy: "who cares?"
 
 <br/>
 <img src="divider.svg" width="100%"/>
-<img src="codingprofile.svg" width="400"/>
+
 
 <p align="center">
   <img src="coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
