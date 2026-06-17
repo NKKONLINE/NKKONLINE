@@ -22,5 +22,5 @@
   </text>
 
   <!-- Underline -->
-  <rect x="35" y="32" width="140" height="2" fill="url(#sectionGrad)" rx="1"/>
+  <rect x="35" y="32" width="160" height="2" fill="url(#sectionGrad)" rx="1"/>
 </svg>
