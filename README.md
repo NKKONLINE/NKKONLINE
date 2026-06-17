@@ -1,58 +1,27 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=3d85c6&height=200&section=header&text=Nandhan%20KK&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20Enthusiast%20%7C%20Linux%20Systems%20%7C%20Ethical%20Hacker%20in%20Training&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffff&text=Nandhan%20KK&fontSize=70&animation=fadeIn&fontAlignY=50&fontFamily=Jetbrains Mono" />
 </p>
 
-<p align="center">
+<p align="center" style="margin-top: -20px; margin-bottom: 20px;">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=750&lines=B.Tech+CSE+(AI+%26+ML)+Student;Cyber+Security+Enthusiast;Ethical+Hacker+in+Training;Linux+%26+Networking+Geek;Always+Learning%2C+Always+Building..." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=fff&center=true&vCenter=true&width=500&lines=I+Never+lose.;Either I win or I learn" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/B.Tech-CSE%20(AI%20%26%20ML)-6A0DAD?style=for-the-badge&logo=graduation-cap&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Focus-Cybersecurity%20%26%20Linux-5B21B6?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Cybersecurity%20-5B21B6?style=for-the-badge&logo=linux&logoColor=white" />
   &nbsp;
   <img src="https://img.shields.io/badge/Location-India-7C3AED?style=for-the-badge&logo=googlemaps&logoColor=white" />
 </p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/NKKONLINE">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="mailto:nandhankkkonline@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/NKKONLINE">
-    <img src="https://img.shields.io/badge/GitHub-NKKONLINE-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NKKONLINE&style=for-the-badge&color=6A0DAD&label=PROFILE+VIEWS" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/NKKONLINE?style=for-the-badge&color=5B21B6&labelColor=1e1e2e&label=FOLLOWERS" />
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/NKKONLINE?style=for-the-badge&color=7C3AED&labelColor=1e1e2e&label=TOTAL%20STARS" />
-</p>
+
+
 
 ---
 
 ##  About Me
 
-<p align="left">
-I am <strong>Nandhan KK</strong>, a driven <strong>Computer Science undergraduate specializing in AI & ML</strong> with a deep passion for <strong>cybersecurity, Linux systems, and ethical hacking</strong>. I am fascinated by how systems work at their core — and more importantly, how they can be secured, monitored, and made resilient against failure.
-</p>
-
--  &nbsp; Deeply interested in **Cybersecurity**, **Ethical Hacking**, and **Network Security**
--  &nbsp; Currently mastering **Kali Linux** and Linux system internals
--  &nbsp; Passionate about **Networking**, **Linux administration**, and **system-level programming**
--  &nbsp; Actively building projects in **System Surveillance** and **Disaster Recovery**
--  &nbsp; Academic background in **AI & ML** — applying intelligent systems to security problems
-
-** Open To:** Cybersecurity Internships · Linux/Networking Roles · Research Collaborations · Open Source Security Projects
 
 ---
 
@@ -80,18 +49,6 @@ I am <strong>Nandhan KK</strong>, a driven <strong>Computer Science undergraduat
 
 ---
 
-## Cybersecurity & Systems Expertise
-
-| Domain | Proficiency | Details |
-|---|---|---|
-| Linux Systems | ███████░░░ Intermediate | Kali Linux, System Administration, Shell Scripting, Process Management |
-| Networking | ███████░░░ Intermediate | TCP/IP, DNS, DHCP, Subnetting, Packet Analysis, Wireshark |
-| Ethical Hacking | ████░░░░░░ Beginner | Reconnaissance, Vulnerability Scanning, Penetration Testing Concepts |
-| System Surveillance | ████░░░░░░ Beginner | Log Monitoring, Intrusion Detection, Automated Alerting |
-| Disaster Recovery | ████░░░░░░ Beginner | Backup Strategies, System Restore, Fault Tolerance Design |
-| Python Scripting | ███████░░░ Intermediate | Automation, Network Tools, Security Scripts, Data Processing |
-
----
 
 
 ##  Experience
@@ -117,42 +74,6 @@ Independently pursuing applied research in cybersecurity and Linux systems as pa
 
 ---
 
-##  Achievements
-
-<p align="center">
-
-| Recognition | Details |
-|:---:|:---:|
-|  Academic Focus | B.Tech CSE (AI & ML) — Specializing in Security & Systems |
-|  Linux Mastery | Actively working in Kali Linux for security research and tooling |
-|  Project Builder | End-to-end ownership of System Surveillance & Disaster Recovery projects |
-|  Networking | Hands-on study of TCP/IP, subnetting, and packet-level networking |
-|  Security Mindset | Ethical hacking methodology applied to personal lab environments |
-
-</p>
-
----
-
-##  Certifications
-
-####  Cisco
-<p>
- <img src="https://img.shields.io/badge/Cisco-Introduction%20to%20Cybersecurity%20(Pursuing)-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cisco-Networking%20Basics-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white" />
-
-</p>
-
-#### 🎓 NPTEL
-<p>
-  <img src="https://img.shields.io/badge/NPTEL-Introduction%20to%20AI-0C9BDB?style=for-the-badge&logo=coursera&logoColor=white" />
-</p>
-
-#### ☁️ AWS
-<p>
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Practitioner%20(Pursuing)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
-</p>
-
----
 
 ## Coding Profiles
 
@@ -185,13 +106,7 @@ Independently pursuing applied research in cybersecurity and Linux systems as pa
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
 </p>
----
 
-## GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NKKONLINE&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" />
-</p>
 
 ---
 
@@ -233,30 +148,37 @@ currently:
     - Research Collaborations in Security & AI
 ```
 
+
+<details open style="border: 1px solid #00c1ff; border-radius: 8px; padding: 20px; background-color: #0d1117; pointer-events: none; box-shadow: 0 0 15px rgba(0, 193, 255, 0.25), inset 0 0 10px rgba(0, 193, 255, 0.05);">
+  <summary style="list-style: none; display: block; font-family: 'JetBrains Mono', monospace; font-size: 1.5em; font-weight: bold; color: #ffffff; margin-bottom: 20px; pointer-events: auto; text-align: center;">
+    Connect With Me
+  </summary>
+
+  <p align="center" style="margin: 0; pointer-events: auto; display: flex; justify-content: center; gap: 30px; align-items: center;">
+    <a href="https://linkedin.com/in/NKKONLINE" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" style="width: 40px; height: 40px; filter: invert(31%) sepia(87%) saturate(1294%) hue-rotate(191deg) brightness(95%) contrast(96%);" />
+    </a>
+    <a href="mailto:nandhankkkonline@gmail.com">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 40px; height: 40px; filter: invert(31%) sepia(76%) saturate(4529%) hue-rotate(346deg) brightness(96%) contrast(87%);" />
+    </a>
+    <a href="https://github.com/NKKONLINE" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 40px; height: 40px; filter: invert(100%);" />
+    </a>
+    <a href="https://instagram.com/_nandhankk_" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram" style="width: 40px; height: 40px; filter: invert(24%) sepia(88%) saturate(3990%) hue-rotate(320deg) brightness(91%) contrast(101%);" />
+    </a>
+    <a href="https://t.me/KKN5574" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/telegram.svg" alt="Telegram" style="width: 40px; height: 40px; filter: invert(56%) sepia(81%) saturate(1450%) hue-rotate(172deg) brightness(99%) contrast(93%);" />
+    </a>
+    <a href="https://snapchat.com/add/nandhankk25" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/snapchat.svg" alt="Snapchat" style="width: 40px; height: 40px; filter: invert(86%) sepia(72%) saturate(1831%) hue-rotate(359deg) brightness(102%) contrast(104%) drop-shadow(0px 0px 1px black);" />
+    </a>
+  </p>
+</details>
+
 ---
 
-## Connect With Me
-
 <p align="center">
-  <a href="mailto:nandhankkkonline@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-nandhankkkonline%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="www.linkedin.com/in/nandhan-kk-b4b686345">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/NKKONLINE">
-    <img src="https://img.shields.io/badge/GitHub-NKKONLINE-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+  <em>"I think you can improve on everything; you're never perfect."</em>
 </p>
 
----
-
-<p align="center">
-  <em>" "I think you can improve on everything; you're never perfect."</em>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6A0DAD&height=120&section=footer" />
-</p>
