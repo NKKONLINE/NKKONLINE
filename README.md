@@ -82,13 +82,13 @@ life_philosophy: "who cares?"
 </p>
 <img src="divider.svg" width="100%"/>
 
-
+<img src="section connect.svg" width="400"/>
 <p align="center">
  <table align="center" border="1" style="border-collapse:collapse; border-color:#00c1ff; border-radius:12px;">
 <tr>
 <td align="center" style="padding:20px; background-color:#0d1117;">
 
-<img src="section connect.svg" width="400"/>
+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/NKKONLINE)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nandhankkkonline@gmail.com)
