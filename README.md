@@ -12,7 +12,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <img src="profile.svg" alt="Terminal Introduction" width="650"/>
+  <img src="terminal.svg" alt="Terminal Introduction" width="650"/>
 </div>
 
 <br/>
