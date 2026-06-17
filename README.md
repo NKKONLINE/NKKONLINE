@@ -17,35 +17,75 @@
 
 <br/>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="divider.svg" width="100%"/>
 
 <br/>
 
----
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- 👤 ABOUT ME SECTION                                                          -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-## Tech Stack
+<img src="section-about.svg" width="400"/>
 
-#### Languages
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,c,cpp,bash,html,css,mysql&theme=dark" />
-</p>
+<br/><br/>
 
-#### Cybersecurity & Linux Tooling
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,kali,bash&theme=dark" />
-</p>
+<table>
+<tr>
+<td width="55%" valign="top">
 
-#### Databases & Web
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,html,css&theme=dark" />
-</p>
+### 🎯 What I Do
 
-#### Tools & Platforms
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,notion&theme=dark" />
-</p>
+```yaml
+name: Redoyanul Haque
+located_in: Bangladesh 🇧🇩
+current_status: Student & Self-Taught Developer
 
----
+areas_of_expertise:
+  - 🤖 AI & Machine Learning
+  - 🐍 Python Development
+  - 💬 Chatbot Architecture
+  - 🌐 Full-Stack Web Development
+  - 🧠 Deep Learning & NLP
+
+currently_building:
+  - Next-gen Conversational AI Agents
+  - JARVIS-like Personal Assistant
+  - Developer Productivity Tools
+
+life_philosophy: "Code is poetry. AI is the canvas."
+```
+
+</td>
+<td width="45%" valign="top">
+
+### 🚀 Current Focus
+
+- 🔬 **Research & Build** advanced AI systems
+- 🤖 **Developing** intelligent chatbots
+- 🧠 **Exploring** LLMs & transformers
+- 🌟 **Contributing** to open-source
+- 📚 **Mentoring** aspiring developers
+- 🏆 **Competing** in programming olympiads
+
+<br/>
+
+### 💡 Quick Facts
+
+- 🎓 Competitive programming mindset
+- 🔥 Passionate about automation
+- 🌱 Always learning new technologies
+- ☕ Fueled by coffee & curiosity
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="divider.svg" width="100%"/>
+
+<br/>
+
 
 
 
