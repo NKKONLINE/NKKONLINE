@@ -33,48 +33,24 @@
 <tr>
 <td width="55%" valign="top">
 
-### 🎯 What I Do
+###  What I Do
 
 ```yaml
-name: Redoyanul Haque
-located_in: Bangladesh 🇧🇩
+name: Nandhan KK 
+located_in: India
 current_status: Student & Self-Taught Developer
-
-areas_of_expertise:
-  - 🤖 AI & Machine Learning
-  - 🐍 Python Development
-  - 💬 Chatbot Architecture
-  - 🌐 Full-Stack Web Development
-  - 🧠 Deep Learning & NLP
-
-currently_building:
-  - Next-gen Conversational AI Agents
-  - JARVIS-like Personal Assistant
-  - Developer Productivity Tools
-
-life_philosophy: "Code is poetry. AI is the canvas."
+life_philosophy: "who cares?"
 ```
 
 </td>
 <td width="45%" valign="top">
 
-### 🚀 Current Focus
-
-- 🔬 **Research & Build** advanced AI systems
-- 🤖 **Developing** intelligent chatbots
-- 🧠 **Exploring** LLMs & transformers
-- 🌟 **Contributing** to open-source
-- 📚 **Mentoring** aspiring developers
-- 🏆 **Competing** in programming olympiads
-
 <br/>
 
-### 💡 Quick Facts
+### Facts
 
-- 🎓 Competitive programming mindset
-- 🔥 Passionate about automation
-- 🌱 Always learning new technologies
-- ☕ Fueled by coffee & curiosity
+- always learning
+- Fueled by coffee
 
 </td>
 </tr>
@@ -89,26 +65,6 @@ life_philosophy: "Code is poetry. AI is the canvas."
 
 
 
-##  Experience
-
-### Student Researcher &nbsp;·&nbsp; `Self-Directed / Academic Projects`
-`2025 – Present`
-
-Independently pursuing applied research in cybersecurity and Linux systems as part of B.Tech CSE (AI & ML) coursework and personal development. Building real-world tools that bridge theory and hands-on security engineering.
-
-- Designing and implementing Linux-based system monitoring and disaster recovery tools from scratch
-- Studying offensive and defensive security techniques via Kali Linux and ethical hacking resources
-- Applying Python scripting for automation, network probing, and log analysis
-- Actively learning networking fundamentals including TCP/IP, subnetting, and packet inspection
-- Contributing to coursework projects integrating AI/ML concepts with real system challenges
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-</p>
 
 ---
 
@@ -116,24 +72,8 @@ Independently pursuing applied research in cybersecurity and Linux systems as pa
 ## Coding Profiles
 
 <p align="center">
-  <a href="https://leetcode.com/u/x__nandhan__x/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
-  </a>
-  &nbsp;
-  <a href="https://www.geeksforgeeks.org/profile/nandhank7d1f">
-    <img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
-  </a>
-  &nbsp;
-  <a href="https://www.hackerrank.com/nandhankkonline">
-    <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" />
-  </a>
-  &nbsp;
-  <a href="https://www.codechef.com/users/nandhan_kk">
-    <img src="https://img.shields.io/badge/CodeChe-f5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
-  </a>
+  <img src="./coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
 </p>
-
----
 
 ##  GitHub Analytics
 
@@ -163,57 +103,52 @@ Independently pursuing applied research in cybersecurity and Linux systems as pa
 </p>
 ---
 
-##  Current Focus
 
-```yaml
-currently:
-  learning:
-    - Kali Linux & Penetration Testing Methodology
-    - Network Security & Packet Analysis (Wireshark, Nmap)
-    - Ethical Hacking — Offensive Security Fundamentals
-  building:
-    - Real-Time Linux System Surveillance Tool
-    - Automated Disaster Recovery Framework
-    - Security Scripts & Network Utilities in Python/Bash
-  exploring:
-    - AI/ML Applications in Cybersecurity (Anomaly Detection)
-    - CTF Challenges & Security Labs
-    - Linux Kernel Internals & System Calls
-  open_to:
-    - Cybersecurity Internships
-    - Linux Systems & DevOps Opportunities
-    - Open Source Security Projects
-    - Research Collaborations in Security & AI
-```
-
-
-<details open style="border: 1px solid #00c1ff; border-radius: 8px; padding: 20px; background-color: #0d1117; pointer-events: none; box-shadow: 0 0 15px rgba(0, 193, 255, 0.25), inset 0 0 10px rgba(0, 193, 255, 0.05);">
-  <summary style="list-style: none; display: block; font-family: 'JetBrains Mono', monospace; font-size: 1.5em; font-weight: bold; color: #ffffff; margin-bottom: 20px; pointer-events: auto; text-align: center;">
-    Connect With Me
-  </summary>
-
-  <p align="center" style="margin: 0; pointer-events: auto; display: flex; justify-content: center; gap: 30px; align-items: center;">
-    <a href="https://linkedin.com/in/NKKONLINE" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" style="width: 40px; height: 40px; filter: invert(31%) sepia(87%) saturate(1294%) hue-rotate(191deg) brightness(95%) contrast(96%);" />
-    </a>
-    <a href="mailto:nandhankkkonline@gmail.com">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 40px; height: 40px; filter: invert(31%) sepia(76%) saturate(4529%) hue-rotate(346deg) brightness(96%) contrast(87%);" />
-    </a>
-    <a href="https://github.com/NKKONLINE" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 40px; height: 40px; filter: invert(100%);" />
-    </a>
-    <a href="https://instagram.com/_nandhankk_" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram" style="width: 40px; height: 40px; filter: invert(24%) sepia(88%) saturate(3990%) hue-rotate(320deg) brightness(91%) contrast(101%);" />
-    </a>
-    <a href="https://t.me/KKN5574" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/telegram.svg" alt="Telegram" style="width: 40px; height: 40px; filter: invert(56%) sepia(81%) saturate(1450%) hue-rotate(172deg) brightness(99%) contrast(93%);" />
-    </a>
-    <a href="https://snapchat.com/add/nandhankk25" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/snapchat.svg" alt="Snapchat" style="width: 40px; height: 40px; filter: invert(86%) sepia(72%) saturate(1831%) hue-rotate(359deg) brightness(102%) contrast(104%) drop-shadow(0px 0px 1px black);" />
-    </a>
-  </p>
-</details>
-
+<div align="center">
+  <table style="border: 2px solid #00c1ff; border-radius: 12px; background-color: #0d1117; padding: 20px; border-collapse: separate;">
+    <thead>
+      <tr>
+        <th colspan="6" style="border: none; font-family: 'JetBrains Mono', monospace; font-size: 1.4em; font-weight: bold; color: #ffffff; text-align: center; padding-bottom: 15px;">
+          Connect With Me
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: none; padding: 0 10px;">
+          <a href="https://linkedin.com/in/NKKONLINE" target="_blank">
+            <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" height="35" />
+          </a>
+        </td>
+        <td style="border: none; padding: 0 10px;">
+          <a href="mailto:nandhankkkonline@gmail.com">
+            <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Gmail" height="35" />
+          </a>
+        </td>
+        <td style="border: none; padding: 0 10px;">
+          <a href="https://github.com/NKKONLINE" target="_blank">
+            <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub" height="35" />
+          </a>
+        </td>
+        <td style="border: none; padding: 0 10px;">
+          <a href="https://instagram.com/_nandhankk_" target="_blank">
+            <img src="https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" height="35" />
+          </a>
+        </td>
+        <td style="border: none; padding: 0 10px;">
+          <a href="https://t.me/KKN5574" target="_blank">
+            <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=for-the-badge&amp;logo=telegram&amp;logoColor=white" alt="Telegram" height="35" />
+          </a>
+        </td>
+        <td style="border: none; padding: 0 10px;">
+          <a href="https://snapchat.com/add/nandhankk25" target="_blank">
+            <img src="https://img.shields.io/badge/-Snapchat-FFFC00?style=for-the-badge&amp;logo=snapchat&amp;logoColor=black" alt="Snapchat" height="35" />
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 ---
 
 <p align="center">
