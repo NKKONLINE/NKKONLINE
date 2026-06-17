@@ -75,7 +75,7 @@ life_philosophy: "who cares?"
 
 <img src="divider.svg" width="100%"/>
 
-##  Contribution Snake
+<img src="snake.svg" width="400"/>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/NKKONLINE/NKKONLINE/output/github-contribution-grid-snake-dark.svg" alt="contribution snake animation" />
@@ -84,7 +84,39 @@ life_philosophy: "who cares?"
 
 
 <p align="center">
-  <img src="connect.svg" />
+  <table align="center" width="100%" border="2" bordercolor="#00c1ff">
+<tr>
+<td>
+
+<details open style="border: 1px solid #00c1ff; border-radius: 8px; padding: 20px; background-color: #0d1117; pointer-events: none; box-shadow: 0 0 15px rgba(0, 193, 255, 0.25), inset 0 0 10px rgba(0, 193, 255, 0.05);">
+  <summary style="list-style: none; display: block; font-family: 'JetBrains Mono', monospace; font-size: 1.5em; font-weight: bold; color: #ffffff; margin-bottom: 20px; pointer-events: auto; text-align: center;">
+    Connect With Me
+  </summary>
+  <p align="center" style="margin: 0; pointer-events: auto; display: flex; justify-content: center; gap: 30px; align-items: center;">
+    <a href="https://linkedin.com/in/NKKONLINE" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" style="width: 40px; height: 40px; filter: invert(31%) sepia(87%) saturate(1294%) hue-rotate(191deg) brightness(95%) contrast(96%);" />
+    </a>
+    <a href="mailto:nandhankkkonline@gmail.com">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 40px; height: 40px; filter: invert(31%) sepia(76%) saturate(4529%) hue-rotate(346deg) brightness(96%) contrast(87%);" />
+    </a>
+    <a href="https://github.com/NKKONLINE" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 40px; height: 40px; filter: invert(100%);" />
+    </a>
+    <a href="https://instagram.com/_nandhankk_" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram" style="width: 40px; height: 40px; filter: invert(24%) sepia(88%) saturate(3990%) hue-rotate(320deg) brightness(91%) contrast(101%);" />
+    </a>
+    <a href="https://t.me/KKN5574" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/telegram.svg" alt="Telegram" style="width: 40px; height: 40px; filter: invert(56%) sepia(81%) saturate(1450%) hue-rotate(172deg) brightness(99%) contrast(93%);" />
+    </a>
+    <a href="https://snapchat.com/add/nandhankk25" target="_blank">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/snapchat.svg" alt="Snapchat" style="width: 40px; height: 40px; filter: invert(86%) sepia(72%) saturate(1831%) hue-rotate(359deg) brightness(102%) contrast(104%) drop-shadow(0px 0px 1px black);" />
+    </a>
+  </p>
+</details>
+
+</td>
+</tr>
+</table>
 </p>
 <img src="divider.svg" width="100%"/>
 
