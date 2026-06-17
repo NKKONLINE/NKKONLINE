@@ -24,7 +24,7 @@
 
   <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
     <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
-    <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#00c1ff" flood-opacity="0.15"/>
+    <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#7303c0" flood-opacity="0.15"/>
   </filter>
 
   <rect x="15" y="15" width="770" height="390" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" filter="url(#glow)"/>
