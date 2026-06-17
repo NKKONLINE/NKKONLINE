@@ -1,18 +1,14 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=ffff&text=Nandhan%20KK&fontSize=70&animation=fadeIn&fontAlignY=50&fontFamily=Jetbrains Mono" />
-</p>
+<div align="center">
+  
+  <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+  <!--  ANIMATED HEADER                                                          -->
+  <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+  
+  <img src="header-animations.svg" alt="NANDHAN KK" width="100%"/>
+  
+  <br/>
 
-<p align="center" style="margin-top: -20px; margin-bottom: 20px;">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=fff&center=true&vCenter=true&width=500&lines=I+Never+lose.;Either I win or I learn" alt="Typing SVG" />
-  </a>
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Cybersecurity%20-5B21B6?style=for-the-badge&logo=linux&logoColor=white" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Location-India-7C3AED?style=for-the-badge&logo=googlemaps&logoColor=white" />
-</p>
 
 
 
