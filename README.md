@@ -84,35 +84,18 @@ life_philosophy: "who cares?"
 
 
 <p align="center">
-  <table align="center" width="100%" border="2" bordercolor="#00c1ff">
+ <table align="center" border="1" style="border-collapse:collapse; border-color:#00c1ff; border-radius:12px;">
 <tr>
-<td>
+<td align="center" style="padding:20px; background-color:#0d1117;">
 
-<details open style="border: 1px solid #00c1ff; border-radius: 8px; padding: 20px; background-color: #0d1117; pointer-events: none; box-shadow: 0 0 15px rgba(0, 193, 255, 0.25), inset 0 0 10px rgba(0, 193, 255, 0.05);">
-  <summary style="list-style: none; display: block; font-family: 'JetBrains Mono', monospace; font-size: 1.5em; font-weight: bold; color: #ffffff; margin-bottom: 20px; pointer-events: auto; text-align: center;">
-    Connect With Me
-  </summary>
-  <p align="center" style="margin: 0; pointer-events: auto; display: flex; justify-content: center; gap: 30px; align-items: center;">
-    <a href="https://linkedin.com/in/NKKONLINE" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn" style="width: 40px; height: 40px; filter: invert(31%) sepia(87%) saturate(1294%) hue-rotate(191deg) brightness(95%) contrast(96%);" />
-    </a>
-    <a href="mailto:nandhankkkonline@gmail.com">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Gmail" style="width: 40px; height: 40px; filter: invert(31%) sepia(76%) saturate(4529%) hue-rotate(346deg) brightness(96%) contrast(87%);" />
-    </a>
-    <a href="https://github.com/NKKONLINE" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" style="width: 40px; height: 40px; filter: invert(100%);" />
-    </a>
-    <a href="https://instagram.com/_nandhankk_" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram" style="width: 40px; height: 40px; filter: invert(24%) sepia(88%) saturate(3990%) hue-rotate(320deg) brightness(91%) contrast(101%);" />
-    </a>
-    <a href="https://t.me/KKN5574" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/telegram.svg" alt="Telegram" style="width: 40px; height: 40px; filter: invert(56%) sepia(81%) saturate(1450%) hue-rotate(172deg) brightness(99%) contrast(93%);" />
-    </a>
-    <a href="https://snapchat.com/add/nandhankk25" target="_blank">
-      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/snapchat.svg" alt="Snapchat" style="width: 40px; height: 40px; filter: invert(86%) sepia(72%) saturate(1831%) hue-rotate(359deg) brightness(102%) contrast(104%) drop-shadow(0px 0px 1px black);" />
-    </a>
-  </p>
-</details>
+<img src="section connect.svg" width="400"/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/NKKONLINE)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nandhankkkonline@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NKKONLINE)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_nandhankk_)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/KKN5574)
+[![Snapchat](https://img.shields.io/badge/Snapchat-FFFC00?style=for-the-badge&logo=snapchat&logoColor=black)](https://snapchat.com/add/nandhankk25)
 
 </td>
 </tr>
