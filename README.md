@@ -50,10 +50,11 @@ life_philosophy: "who cares?"
 <img src="divide.svg" width="100%"/>
 <img src="code-profile.svg" width="400"/>
 
-<p align="center">
-  <img src="coding-profiles.svg" width="500px" alt="Coding Profiles Container" />
-</p>
-<img src="divide.svg" width="100%"/>
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/x__nandhan__x/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/nandhank7d1f)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/nandhankkonline)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4636?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/nandhan_kk)
+<br>
 <img src="section-stats.svg" width="400"/>
 
 <p align="center">
