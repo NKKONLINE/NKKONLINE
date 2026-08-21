@@ -15,8 +15,8 @@
 <!-- 👤 ABOUT ME SECTION                                                          -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="sectionabout.svg" width="300"/>
-<img src="aboutme.svg" width="100"/>
+<img src="sectionabout.svg" width="300"/><br>
+<img src="aboutme.svg" width="400"/>
 
 <br/><br/>
 
