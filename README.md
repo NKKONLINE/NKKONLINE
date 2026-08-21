@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   
   <!-- ═══════════════════════════════════════════════════════════════════════════ -->
   <!--  ANIMATED HEADER                                                          -->
@@ -7,7 +7,7 @@
   <img src="header-animation.svg" alt="NANDHAN KK" width="100%"/>
 <br/>
 
-<img src="divide.svg" width="100%"/>
+
 
 <br/>
 
@@ -15,22 +15,9 @@
 <!-- 👤 ABOUT ME SECTION                                                          -->
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
 
-<img src="sectionabout.svg" width="400"/>
+<img src="sectionabout.svg" width="300"/>
 
 <br/><br/>
-
-<table>
-<tr>
-<td width="100%" valign="top">
-
-```yaml
-name: Nandhan KK 
-located_in: India
-current_status: Student & Self-Taught Developer
-life_philosophy: "who cares?"
-```
-</tr>
-</table>
 
 <br/>
 
