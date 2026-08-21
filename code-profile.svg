@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="40" viewBox="0 0 240 40">
-  <defs>
-    <linearGradient id="sectionGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#4776E6"/>
-      <stop offset="100%" style="stop-color:#8E54E9"/>
-    </linearGradient>
-  </defs>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="40" viewBox="0 0 200 40">
+  
   <rect width="100%" height="100%" fill="transparent"/>
-
-  <!-- Icon -->
-  <g transform="translate(4, 8) scale(1)">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M18.5708 20C19.8328 20 20.8568 18.977 20.8568 17.714V13.143L21.9998 12L20.8568 10.857V6.286C20.8568 5.023 19.8338 4 18.5708 4M5.429 4C4.166 4 3.143 5.023 3.143 6.286V10.857L2 12L3.143 13.143V17.714C3.143 18.977 4.166 20 5.429 20" stroke="url(#sectionGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </g>
-
-  <!-- Text -->
-  <text x="35" y="27" font-family="'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="url(#sectionGrad)">
- Coding Profiles
+  
+  <text x="1" y="28" font-size="40"></text>
+  
+  <text x="0" y="27" font-family="'JetBrains Mono', sans-serif" font-size="18" font-weight="600" fill="#fafafa" letter-spacing="0">
+    Coding Profiles
   </text>
-
-  <!-- Underline -->
-  <rect x="35" y="32" width="120" height="2" fill="url(#sectionGrad)" rx="1"/>
+  
 </svg>
