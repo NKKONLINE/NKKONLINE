@@ -17,15 +17,8 @@
 
 <img src="sectionabout.svg" width="300"/><br>
 <img src="aboutme.svg" width="400"/>
-
-<br/><br/>
-
 <br/>
 
-<img src="divide.svg" width="100%"/>
-
-<br/>
-<img src="divide.svg" width="100%"/>
 <img src="code-profile.svg" width="400"/>
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/x__nandhan__x/)
