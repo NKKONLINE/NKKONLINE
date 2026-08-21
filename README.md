@@ -5,16 +5,6 @@
   <!-- ═══════════════════════════════════════════════════════════════════════════ -->
   
   <img src="header-animation.svg" alt="NANDHAN KK" width="100%"/>
-  
-  <br/>
-  <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 🖥️ TERMINAL INTRO SECTION                                                   -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<div align="center">
-  <img src="terminal.svg" alt="Terminal Introduction" width="650"/>
-</div>
-
 <br/>
 
 <img src="divide.svg" width="100%"/>
@@ -103,6 +93,12 @@ life_philosophy: "who cares?"
 </table>
 </p>
 <img src="divide.svg" width="100%"/>
+<div align="center">
+    <!-- ═══════════════════════════════════════════════════════════════════════════ -->
+<!-- 🖥️ TERMINAL INTRO SECTION                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+  <img src="terminal.svg" alt="Terminal Introduction" width="650"/><!--move to the end -->
+</div>
 
 <p align="center">
   <em>"I think you can improve on everything; you're never perfect."</em>
