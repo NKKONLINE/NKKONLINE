@@ -1,70 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="100%" height="100%">
-  <style>
-    .terminal { font-family: 'JetBrains Mono', monospace; font-size: 15px; fill: #e2e8f0; }
-    .title-bar { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; fill: #758575; text-anchor: middle; }
-    .prompt { fill: #c3e88d; font-weight: bold; }
-    .command { fill: #ffffff; }
-    .json-key { fill: #ff5370; }
-    .json-string { fill: #c3e88d; }
-    .json-bracket { fill: #f78c6c; }
-    
-    /* Typing Animation Logic */
-    .type-line {
-      visibility: hidden;
-      animation: revealStep 0.1s forwards;
-    }
-    .cursor {
-      animation: blink 0.8s infinite;
-      fill: #82aaff;
-    }
-
-    @keyframes revealStep { to { visibility: visible; } }
-    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-  </style>
-
-  <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
-    <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
-    <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#7303c0" flood-opacity="0.15"/>
-  </filter>
-
-  <rect x="15" y="15" width="770" height="390" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5" filter="url(#glow)"/>
-
-  <circle cx="40" cy="40" r="6" fill="#ff5f56" />
-  <circle cx="60" cy="40" r="6" fill="#ffbd2e" />
-  <circle cx="80" cy="40" r="6" fill="#27c93f" />
-  <text x="400" y="44" class="title-bar">nandhan@kali: ~</text>
-
-  <g class="terminal" transform="translate(40, 95)">
-    <g class="type-line" style="animation-delay: 0.2s;">
-      <text x="0" y="0"><tspan class="prompt">❯ </tspan><tspan class="command">cat nandhankk.json</tspan></text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 1.2s;">
-      <text x="0" y="30" class="json-bracket">{</text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 1.6s;">
-      <text x="25" y="60"><tspan class="json-key">"name"</tspan>: <tspan class="json-string">"Nandhan KK"</tspan>,</text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 2.4s;">
-      <text x="25" y="90"><tspan class="json-key">"role"</tspan>: <tspan class="json-string">"Offensive Security Student"</tspan>,</text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 3.5s;">
-      <text x="25" y="120"><tspan class="json-key">"focus"</tspan>: <tspan class="json-string">"Penetration Testing &amp; Breach Simulation"</tspan>,</text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 4.8s;">
-      <text x="25" y="150"><tspan class="json-key">"goal"</tspan>: <tspan class="json-string">"Delivering Hacking as a Service (HaaS)"</tspan></text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 5.8s;">
-      <text x="0" y="180" class="json-bracket">}</text>
-    </g>
-
-    <g class="type-line" style="animation-delay: 6.2s;">
-      <text x="0" y="220" class="prompt">❯ <tspan class="cursor">█</tspan></text>
-    </g>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .neon-bg {
+        fill: #0a0a0a;
+        stroke: #ff00ff;
+        stroke-width: 2;
+        filter: url(#neonGlow);
+      }
+      .terminal-text {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #ff00ff;
+        font-weight: bold;
+        text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+      }
+      .terminal-output {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #00ffff;
+        font-weight: bold;
+        text-shadow: 0 0 10px #00ffff;
+      }
+      .terminal-success {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #00ff00;
+        font-weight: bold;
+        text-shadow: 0 0 10px #00ff00;
+      }
+      .terminal-warning {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #ffff00;
+        font-weight: bold;
+        text-shadow: 0 0 10px #ffff00;
+      }
+      .terminal-error {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #ff0040;
+        font-weight: bold;
+        text-shadow: 0 0 10px #ff0040;
+      }
+      .terminal-info {
+        font-family: 'Courier New', monospace;
+        font-size: 14px;
+        fill: #8040ff;
+        font-weight: bold;
+        text-shadow: 0 0 10px #8040ff;
+      }
+      .neon-cursor {
+        fill: #ff00ff;
+        animation: neonBlink 0.8s infinite;
+      }
+      @keyframes neonBlink {
+        0%, 50% { opacity: 1; text-shadow: 0 0 10px #ff00ff; }
+        51%, 100% { opacity: 0.3; text-shadow: 0 0 5px #ff00ff; }
+      }
+    </style>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Neon background -->
+  <rect x="0" y="0" width="800" height="400" rx="10" ry="10" class="neon-bg"/>
+  
+  <!-- Terminal content -->
+  
+  <text x="20" y="70" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.05s" fill="freeze"/></tspan><tspan opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.1s" fill="freeze"/></tspan><tspan opacity="0">p<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.15s" fill="freeze"/></tspan><tspan opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.2s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.25s" fill="freeze"/></tspan><tspan opacity="0">i<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.3s" fill="freeze"/></tspan><tspan opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.35s" fill="freeze"/></tspan><tspan opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.4s" fill="freeze"/></tspan><tspan opacity="0">t<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.45s" fill="freeze"/></tspan><tspan opacity="0">a<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.5s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.55s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.6s" fill="freeze"/></tspan>
+  </text>
+  <text x="20" y="90" class="terminal-warning" opacity="0">
+    npm WARN deprecated package@1.0.0: Package deprecated
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="1.75s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="108" class="terminal-success" opacity="0">
+    added 847 packages, and audited 848 packages in 3s
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="3.45s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="126" class="terminal-info" opacity="0">
+    ✓ 142 packages are looking for funding
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="3.95s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="144" class="terminal-success" opacity="0">
+    found 0 vulnerabilities
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="4.15s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="170" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.65s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.7s" fill="freeze"/></tspan><tspan opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.75s" fill="freeze"/></tspan><tspan opacity="0">p<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.800000000000001s" fill="freeze"/></tspan><tspan opacity="0">m<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.8500000000000005s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.9s" fill="freeze"/></tspan><tspan opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.95s" fill="freeze"/></tspan><tspan opacity="0">u<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5s" fill="freeze"/></tspan><tspan opacity="0">n<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.050000000000001s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.1000000000000005s" fill="freeze"/></tspan><tspan opacity="0">d<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.15s" fill="freeze"/></tspan><tspan opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.2s" fill="freeze"/></tspan><tspan opacity="0">v<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.25s" fill="freeze"/></tspan>
+  </text>
+  <text x="20" y="190" class="terminal-output" opacity="0">
+    &gt; project@0.1.0 dev
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="5.9s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="208" class="terminal-output" opacity="0">
+    &gt; next dev
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="6.1000000000000005s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="226" class="terminal-info" opacity="0">
+       ▲ Next.js 14.0.0
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="6.6000000000000005s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="244" class="terminal-success" opacity="0">
+       - Local:        http://localhost:3000
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="7.1000000000000005s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="262" class="terminal-success" opacity="0">
+       - Network:      http://192.168.1.100:3000
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="7.300000000000001s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="280" class="terminal-success" opacity="0">
+     ✓ Ready in 2.3s
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="7.9s" 
+             fill="freeze"/>
+  </text>
+  <text x="20" y="306" class="terminal-text"><tspan opacity="0">$<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.4s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.450000000000001s" fill="freeze"/></tspan><tspan opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.5s" fill="freeze"/></tspan><tspan opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.55s" fill="freeze"/></tspan><tspan opacity="0">h<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.6s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.65s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.700000000000001s" fill="freeze"/></tspan><tspan opacity="0">&quot;<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.75s" fill="freeze"/></tspan><tspan opacity="0">H<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.8s" fill="freeze"/></tspan><tspan opacity="0">e<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.85s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.9s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="8.950000000000001s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9s" fill="freeze"/></tspan><tspan opacity="0"> <animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.05s" fill="freeze"/></tspan><tspan opacity="0">W<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.1s" fill="freeze"/></tspan><tspan opacity="0">o<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.15s" fill="freeze"/></tspan><tspan opacity="0">r<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.200000000000001s" fill="freeze"/></tspan><tspan opacity="0">l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.25s" fill="freeze"/></tspan><tspan opacity="0">d<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.3s" fill="freeze"/></tspan><tspan opacity="0">&quot;<animate attributeName="opacity" values="0;1" dur="0.05s" begin="9.35s" fill="freeze"/></tspan>
+  </text>
+  <text x="20" y="326" class="terminal-output" opacity="0">
+    Hello World
+    <animate attributeName="opacity" 
+             values="0;1" 
+             dur="0.2s" 
+             begin="9.9s" 
+             fill="freeze"/>
+  </text>
+  
+  
+  <!-- Neon cursor -->
+  <text x="20" y="352" class="neon-cursor">▋</text>
+  
 </svg>
