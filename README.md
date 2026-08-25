@@ -3,8 +3,9 @@
   <!-- ═══════════════════════════════════════════════════════════════════════════ -->
   <!--  ANIMATED HEADER                                                          -->
   <!-- ═══════════════════════════════════════════════════════════════════════════ -->
-  
-  <img src="header-animation.svg" alt="NANDHAN KK" width="100%"/>
+  <div align="center">
+  <img src="TITLE.svg" alt="NANDHAN KK" width="100%"/>
+  </div>
 <br/>
 
 
