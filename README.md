@@ -8,17 +8,17 @@
   </div>
 <br/>
 
+<img src="section-stats.svg" width="400"/>
 
 
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!-- 👤 ABOUT ME SECTION                                                          -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-
-<img src="sectionabout.svg" width="300"/><br>
-<img src="aboutme.svg" width="400"/>
-<br/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&theme=dark&hide_border=false&include_all_commits=true&count_private=false" /><br/>
+  <img src="https://streak-stats.demolab.com/?user=NKKONLINE&theme=dark&hide_border=false" /><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" />
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
+</p>
 
 <img src="code-profile.svg" width="300"/>
 
@@ -27,17 +27,6 @@
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/nandhankkonline)
 [![CodeChef](https://img.shields.io/badge/CodeChef-5B4636?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/nandhan_kk)
 <br>
-<img src="section-stats.svg" width="400"/>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=7C3AED&text_color=C9D1D9&rank_icon=github" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NKKONLINE&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=7C3AED&currStreakLabel=8B5CF6" width="49%" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
-</p>
-
-<img src="divide.svg" width="100%"/>
 
 <img src="contributions.svg" width="400"/>
 
