@@ -8,6 +8,8 @@
         fill: #ffffff;
         font-weight: 600;
         text-rendering: optimizeLegibility;
+      text-anchor: middle;
+      dominant-baseline: middle;
       }
       .wave-cursor {
         fill: #ffffff;
@@ -49,29 +51,18 @@
   
   <rect width="400" height="60" fill="#1a1a1a" rx="3"/>
   
-  <g class="wave-text">
-    <text x="20" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0s, 0s">N</tspan>
-                </text><text x="32" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.07s, 0.15s">A</tspan>
-                </text><text x="44" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.14s, 0.3s">N</tspan>
-                </text><text x="56" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.21s, 0.44999999999999996s">D</tspan>
-                </text><text x="68" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.28s, 0.6s">H</tspan>
-                </text><text x="80" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.35s, 0.75s">A</tspan>
-                </text><text x="92" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.42s, 0.8999999999999999s">N</tspan>
-                </text><text x="104" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.49s, 1.05s">&#160;</tspan>
-                </text><text x="116" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.56s, 1.2s">K</tspan>
-                </text><text x="128" y="36.666666666666664" class="wave-text">
-                  <tspan class="wave-char" style="animation-delay: 0.63s, 1.3499999999999999s">K</tspan>
-                </text>
-    
-    
+<g class="wave-text">
+  <text x="200" y="30" class="wave-text">
+    <tspan class="wave-char" style="animation-delay: 0s, 0s">N</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.07s, 0.15s">A</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.14s, 0.3s">N</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.21s, 0.45s">D</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.28s, 0.6s">H</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.35s, 0.75s">A</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.42s, 0.9s">N</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.49s, 1.05s">&#160;</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.56s, 1.2s">K</tspan>
+    <tspan class="wave-char" style="animation-delay: 0.63s, 1.35s">K</tspan>
+  </text>    
   </g>
 </svg>
