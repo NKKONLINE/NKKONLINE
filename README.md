@@ -12,9 +12,9 @@
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&theme=dark&hide_border=false&include_all_commits=true&count_private=false" /><br/>
-  <img src="https://streak-stats.demolab.com/?user=NKKONLINE&theme=dark&hide_border=false" /><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&theme=dark&show_icons=true&hide_border=false&include_all_commits=true" /><br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NKKONLINE&theme=dark&hide_border=false" /><br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&theme=dark&hide_border=false&include_all_commits=true&layout=compact" />
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
