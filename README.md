@@ -8,18 +8,6 @@
   </div>
 <br/>
 
-<img src="section-stats.svg" width="400"/>
-
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NKKONLINE&theme=dark&show_icons=true&hide_border=false&include_all_commits=true" /><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NKKONLINE&theme=dark&hide_border=false" /><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&theme=dark&hide_border=false&include_all_commits=true&layout=compact" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NKKONLINE&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9&langs_count=8" width="49%" />
-</p>
-
 <img src="code-profile.svg" width="300"/>
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/x__nandhan__x/)
@@ -28,16 +16,12 @@
 [![CodeChef](https://img.shields.io/badge/CodeChef-5B4636?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/nandhan_kk)
 <br>
 
-<img src="contributions.svg" width="400"/>
 
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=NKKONLINE&theme=tokyo-night&bg_color=0D1117&color=8B5CF6&line=7C3AED&point=C4B5FD&area=true&hide_border=true" />
-</p>
 
 <img src="divide.svg" width="100%"/>
 
-<img src="snakes.svg" width="400"/>
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/NKKONLINE/NKKONLINE/output/github-contribution-grid-snake-dark.svg" alt="contribution snake animation" />
@@ -68,8 +52,8 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════ -->
   <img src="terminal.svg" alt="Terminal Introduction" width="650"/><!--move to the end -->
 </div>
-
+<br>
 <p align="center">
-  <em>"I think you can improve on everything; you're never perfect."</em>
+  <em>"Maybe God is with him but he is not God."</em>
 </p>
 
